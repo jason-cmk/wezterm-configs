@@ -11,6 +11,9 @@ config.window_decorations = 'RESIZE'
 config.color_scheme = 'Catppuccin Mocha'
 config.window_background_opacity = 0.95
 
+config.initial_cols = 140
+config.initial_rows = 35
+
 local act = wezterm.action
 config.keys = {
     -- paste from the clipboard
