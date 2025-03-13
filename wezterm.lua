@@ -3,7 +3,7 @@ local config = wezterm.config_builder()
 
 config.default_domain = 'WSL:Arch'
 
-config.font = wezterm.font('CaskaydiaMono Nerd Font Mono')
+config.font = wezterm.font('CaskaydiaMono Nerd Font')
 config.font_size = 13
 
 config.enable_tab_bar = false
@@ -19,5 +19,7 @@ config.keys = {
     -- paste from the clipboard
     { key = 'v', mods = 'CTRL', action = act.PasteFrom 'Clipboard' },
 }
+
+config.warn_about_missing_glyphs = false
 
 return config
