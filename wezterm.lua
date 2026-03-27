@@ -8,8 +8,7 @@ config.font_size = 13
 
 config.enable_tab_bar = false
 config.window_decorations = 'RESIZE'
-config.color_scheme = 'Catppuccin Mocha'
-config.window_background_opacity = 0.9
+config.color_scheme = 'Catppuccin Latte'
 
 config.initial_cols = 140
 config.initial_rows = 35
