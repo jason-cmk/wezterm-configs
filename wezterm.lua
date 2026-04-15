@@ -1,8 +1,6 @@
 local wezterm = require('wezterm')
 local config = wezterm.config_builder()
 
-config.default_domain = 'WSL:Arch'
-
 config.font = wezterm.font('CaskaydiaMono Nerd Font')
 config.font_size = 13
 
@@ -12,6 +10,8 @@ config.color_scheme = 'Catppuccin Latte'
 
 config.initial_cols = 140
 config.initial_rows = 35
+
+config.window_background_opacity = 0.93
 
 local act = wezterm.action
 config.keys = {
